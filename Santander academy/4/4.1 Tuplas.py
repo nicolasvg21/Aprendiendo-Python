@@ -2,7 +2,7 @@ print("TUPLAS")
 print("CREACION Y ACCESO")
 print ("")
 
-print("Para crear una tupla encierra los elementos entre paréntesis:")"
+print("Para crear una tupla encierra los elementos entre paréntesis:")
 punto = (3, 4)
 
 print("Para acceder a los elementos de una tupla, utiliza el indice del elemento entre corchetes, similar a las listas:")

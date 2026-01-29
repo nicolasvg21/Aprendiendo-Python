@@ -40,3 +40,30 @@ print(diferencia_simetrica)
 print("")
 
 print("METODOS DE CONJUNTOS")
+print("Los conjuntos en python tienen varios métodos incorporados para maipular y acceder a los elemento. Algunos métoos comunes son:")
+print("")
+
+Frutas = {"manzana", "banana", "naranja"}
+
+print("- add(elemento: agrega un elemento al conjunto.")
+frutas.add("pera")
+print(frutas)
+print("")
+
+print("- remove(elemento): elimina un elemento del conjunto. Si el elemento no existe, genera un error.")
+frutas.remove("banana")
+print(frutas)
+print("")
+
+print("- discard(elemento: elimina un elemento del conjunto si está presente. Si el elemento no existe, no hace nada.")
+frutas.discard("uva")
+print(frutas)
+print("")
+
+print("- clear(): elimina todos los elementos del conjunto.")
+frutas.clear()
+print(frutas)
+print("")
+
+print("Las estructuras de datos de python nos brindan una gran flexibilidad y potencia para almacenar y manipular datos en nuestros programas. Las listas son utiles para colecciones ordenadas y mutables, las tuplas para colecciones ordenadas e inmutables, los diccionarios para almacenar pares clave-valor y los conjuntos para colecciones no ordenadas de elementos unicos.")
+print("")
