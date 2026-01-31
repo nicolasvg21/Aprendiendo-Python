@@ -3,7 +3,7 @@ print ("me llamo Nicolas Vargas")
 print ("estoy aprendiendo a programar")
 # este es un comentario de unas sola linea
 """
-Este es un mentario
+Este es un comentario
 de varias lineas
 """
 a = 10
@@ -22,8 +22,8 @@ b=3
 
 igual = a == b  #false
 difetene = a != b   #true
-mayor que: a > b   #false
-menor que: a < b   #false
+mayor que : a > b   #false
+menor que : a < b   #false
 mayor o igual que = a >= b  #true
 menor o igual que = a <= b  #false
 
