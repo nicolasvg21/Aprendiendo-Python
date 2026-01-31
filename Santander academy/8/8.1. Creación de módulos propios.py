@@ -1,15 +1,11 @@
 """
 8.1. CREACION DE MÓDULOS PROPIOS
 
-Además de utilizar los módulos estándar de Python, también podemos crear nuestros 
-propios módulos para organizar y reutilizar nuestro código.")
+Además de utilizar los módulos estándar de Python, también podemos crear nuestros propios módulos para organizar y reutilizar nuestro código.")
 
 Crear y utilizar módulos personalizados
 
-Para crear un módulo personalizado, simplemente creamos un nuevo archivo Python con 
-el nombre deseado y definimos las funciones, clases y variables que queremos 
-incluir en el módulo. Por ejemplo, creamos un archivo (en el mismo directorio donde 
-estamos ejecutando Python) llamado mi_modulo.py con el siguiente contenido:")
+Para crear un módulo personalizado, simplemente creamos un nuevo archivo Python con el nombre deseado y definimos las funciones, clases y variables que queremos incluir en el módulo. Por ejemplo, creamos un archivo (en el mismo directorio donde estamos ejecutando Python) llamado mi_modulo.py con el siguiente contenido:")
 """
 
 #mi_modulo.py
@@ -20,8 +16,7 @@ def  calcular_suma(a, b):
     return a + b
 
 """
-Luego, podemos importar y utilizar las funciones definidas en mi_modulo.py en otro 
-archivo python
+Luego, podemos importar y utilizar las funciones definidas en mi_modulo.py en otro archivo python
 """
 #ESTA MIERDA QUE COLOCO A CONTINUACIÓN VA EN OTRO MÓDULO
 
@@ -36,14 +31,9 @@ print(resultado) #imprime 8
 """
 ORGANIZACION DEL CÓDUGO EN MODULOS
 
-A medida que nuestros programas crecen en tamaño y complejidad, es una buena 
-práctica organizar nuestro código en módulos separados según su funcionalidad. 
-Esto nos permite conservar un código más legible, agrupado en módulos y fácil 
-de mantener.
+A medida que nuestros programas crecen en tamaño y complejidad, es una buena práctica organizar nuestro código en módulos separados según su funcionalidad. Esto nos permite conservar un código más legible, agrupado en módulos y fácil de mantener.
 
-Por ejemplo, podemos tener un módulo operaciones.py que contenga funciones 
-relacionadas con operaciones matemáticas, y otro módulo utilidades.py que contenga 
-funciones de uso general.
+Por ejemplo, podemos tener un módulo operaciones.py que contenga funciones relacionadas con operaciones matemáticas, y otro módulo utilidades.py que contenga funciones de uso general.
 """
 
 # operaciones.py
