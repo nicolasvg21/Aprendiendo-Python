@@ -45,14 +45,12 @@ print("")
 
 print("if condicion1:")
 print("")
-
 print("    #Bloque de codigo a ejecutar si la condicion1 es verdadera")
 print("    instrucciones")
 print("")
 
 print("elif condicicion2:")
 print("")
-
 print("    #Bloque de codigo a ejecutrar si la condicion2 es verdadera")
 print("    instrucciones")
 print("")
