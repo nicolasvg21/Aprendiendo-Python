@@ -1,7 +1,8 @@
 print ("LISTAS")
 print ("CREACIÓN Y ACCESO")
 print ("Para crear una lista simplemetne encierra los elementso entre corchetes:")
-frutas = ["Manzana", "banana", "naranja"]
+frutas = ["manzana", "banana", "naranja"]
+
 print ("")
 
 print(frutas[0]) 
