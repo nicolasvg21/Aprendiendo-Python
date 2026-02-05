@@ -17,14 +17,14 @@ import random
 
 nombre = input("Escribe tu nombre: ")
 nombre2p = nombre[0:2].upper()
-print(f"Las dos prieras letras de su nombre son: {nombre2p}")
+print(f"Las dos primeras letras de su nombre son: {nombre2p}")
 
 apellido = input("\nEscribe tu apellido: ")
 apellido2p = apellido[0:2].upper()
 print(f"Las dos primeras letras de su apellido son: {apellido2p}")
 
 anio = str(input("\nCual es tu año de nacimiento: "))
-anio2u = anio[2:5]
+anio2u = anio[2:4] # o tambien se puede dejar [2:]
 print(f"Los 2 ultimos numeros de su año de nacimiento es: {anio2u}")
 
 numeroAl1 = str(random.randint(0, 9))
@@ -35,4 +35,8 @@ numeroAlT = numeroAl1 + numeroAl2 + numeroAl3 + numeroAl4
 
 idUnico = nombre2p+apellido2p+anio2u+numeroAlT
 
-print(f"El resultado de su ID unico es: {idUnico}")
+print(f"""\n Hola {nombre}
+      El resultado de su ID unico es: 
+      {idUnico}
+      Felicidades!!!!
+""")
