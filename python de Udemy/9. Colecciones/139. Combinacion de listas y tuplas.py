@@ -1,4 +1,4 @@
-print("**** COMBINACION D ELISTAS CON TUPLAS ****")
+print("**** COMBINACION DE LISTAS CON TUPLAS ****")
 
 # definir una lista que alcancemos tuplas de productos
 productos = [

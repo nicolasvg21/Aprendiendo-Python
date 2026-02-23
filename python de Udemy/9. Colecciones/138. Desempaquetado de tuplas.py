@@ -6,7 +6,7 @@ producto = ("P001", "Camisa", 20.00)
 id, descripcion, precio = producto
 
 # Imprimir lso valores
-print(f"Tupla completa: {producto}")
+print(f"\nTupla completa: {producto}")
 
 #valores independeintes ya desempaquetados
-print(f"Producto: id = {id}, descripcion = {descripcion}, precio = {precio}")
+print(f"\nProducto: id = {id}, descripcion = {descripcion}, precio = {precio}")

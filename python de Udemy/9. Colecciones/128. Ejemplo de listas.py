@@ -3,12 +3,11 @@ print("*** Manejo de listas*** ")
 mi_lista = [1, 2, 3, 4, 5]
 print(f"\n{mi_lista} - > Lista original")
 
-
 #Largo de una lsita
-print(f"\nLargo de una lsita: {len(mi_lista)}")
+print(f"\nLargo de una lista: {len(mi_lista)}")
 
 # Acceder a los elementos de la lsita por indice
-print(f"\nAccedemso al valor del indice 4: {mi_lista[4]}")
+print(f"\nAccedemos al valor del indice 4: {mi_lista[4]}")
 print(f"\nAccedemos al ultimo valor del indice de la lista: {mi_lista[-1]}")
 
 #modificar los elementos de una lsita
@@ -19,7 +18,7 @@ print(f"\nModificamos el valor del indice 1: {mi_lista}")
 mi_lista.append(6)
 print(f"\n{mi_lista} -> Se agregó el elemento 6")
 
-# Añadir un nuevo elemento en unindice específico
+# Añadir un nuevo elemento en un indice específico
 mi_lista.insert(2, 15)
 print(f"\n{mi_lista} -> Se añadió el valor de 15 en el indice 2")
 
@@ -37,5 +36,5 @@ del mi_lista[2]
 print(f"\n{mi_lista} -> Se eliminó el indice 2 es decir el valor de 3")
 
 # Obtener sublistas
-sublita = mi_lista[1:3]  # Genere una sublisata del indice 1 al 2 (3 no se incluye)
+sublita = mi_lista[1:2+1]  # Genere una sublisata del indice 1 al 2 (3 no se incluye)
 print(f"\nSublista [1:3]: {sublita}")

@@ -5,7 +5,7 @@ numero_de_repeticiones = int(input("Proporciona el numero de repeticioes: "))
 
 # Iterar osbre el rango de repeticiones:
 for i in range(numero_de_repeticiones):
-    print(f"{i+1} - {mensaje}")
+    print(f"{i} - {mensaje}")
 print()
 for _ in range(numero_de_repeticiones):
     print(mensaje)    
