@@ -6,7 +6,7 @@ persona = {
     "edad": 30,
     "ciudad": "Mexico"
 }
-print(f"Diccionario de persona: {persona}")
+print(f"\nDiccionario de persona: {persona}")
 
 # Acceder a los elementos del diccionario
 print(f"Nombre: {persona["nombre"]}")
@@ -15,22 +15,22 @@ print(f"Ciudad: {persona['ciudad']}")
 
 #Modificar un valor del diccionario
 persona["edad"] = 35
-print(f"Diccionario de persona: {persona}")
+print(f"\nDiccionario de persona: {persona}")
 
 # Agregar un nuevo elemento
 persona["profesion"] = "Ingeniero"
-print(f"Diccionario de persona: {persona}")
+print(f"\nDiccionario de persona: {persona}")
 
 # Eliminar un elemento del diccionario
 del persona["ciudad"]
-print(f"Diccionario de persona: {persona}")
+print(f"\nDiccionario de persona: {persona}")
 
 persona.pop("profesion")
-print(f"Diccionario de persona: {persona}")
+print(f"\nDiccionario de persona: {persona}")
 
 # Iterar los elementos de un dict (llave, valor
 for llave, valor in persona.items():
-    print(f"Llave: {llave}, Valor: {valor}")
+    print(f"\nLlave: {llave}, Valor: {valor}")
 
 # Obterner los valores
 print("\nValores del diccionario: ")

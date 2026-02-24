@@ -5,7 +5,7 @@ Crea un programa para administrar una lista de suscriptores utilziando su email.
 
 Supón que una persona se suscribe al boletein informativo utilizando su email.
 
-A medida que la lista crecem hay que asegurarnos que no tengamos suscriptores duplicados.
+A medida que la lista crece hay que asegurarnos que no tengamos suscriptores duplicados.
 
 Tambien deberemos poder agregar y eliminar suscriptores.
 """
@@ -15,7 +15,7 @@ print("*** Lista de suscriptores ***")
 #suscriptores = {} # Aqui se define un diccionario vacio
 suscriptores = set() # Definimos un set vacio
 
-numero_suscriptores = int(input("Proporciona el numero d esuscriptres iniciales: "))
+numero_suscriptores = int(input("Proporciona el numero de suscriptores iniciales: "))
 for _ in range(numero_suscriptores):
     suscriptores.add(input("Nuevo suscriptor (email): "))
 
