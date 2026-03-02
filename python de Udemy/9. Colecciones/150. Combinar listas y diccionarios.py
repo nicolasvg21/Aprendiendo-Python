@@ -67,9 +67,9 @@ print(personas)
 
 # Acceder a un diccionario desde una lista
 print(f"""\nDetalle del primer elemento de la lista
-    Nombre: {personas[0].get("nombre")}
-    Apellido: {personas[0]['apellido']}
-    Edad: {personas[0]["edad"]}
+    Nombre: {personas[1].get("nombre")}
+    Apellido: {personas[1]['apellido']}
+    Edad: {personas[1]["edad"]}
 """)
 
 # Recorrer los elementos de la lista

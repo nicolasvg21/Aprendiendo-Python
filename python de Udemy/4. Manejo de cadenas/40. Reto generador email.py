@@ -68,7 +68,7 @@ nombre_normalizado = nombre_completo.strip().replace(" ", ".")
 
 # Convertimos a minusculas
 nombre_normalizado = nombre_normalizado.lower()
-print(f"Noombre usuario normalizado: { nombre_normalizado}")
+print(f"Noombre usuario normalizado: {nombre_normalizado}")
 print()
 
 # Datos de la empresa
