@@ -27,7 +27,7 @@ promedio = sumatoria/numero_calificaciones
 
 print(f"Promedio de las califiaciones: {promedio}")
 
-print("****** MI PROFE LO HACE ASÍ  *****")
+print("****** MI PROFE LO HACE ASÍ  *****") #------------------------
 
 total_calificaciones = int(input("proporciona el numerod ecalificaciones a evaluar: "))
 calificaciones = []

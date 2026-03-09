@@ -19,20 +19,22 @@ Detalle de un producto:
 print("*** Sistema de inventario con funciones ***")
 
 inventarios = [
+    { "Este es el inventario actual:"
+    },
     {
-        "Id" : 0,
+        "Id" : 1,
         "Nombre" : "Camisa",
         "Precio" : 25.99,
         "Cantidad" : 50,
     },
     {
-        "Id" : 1,
+        "Id" : 2,
         "Nombre" : "Pantalones",
         "Precio" : 39.99,
         "Cantidad" : 30
     },
     {
-        "Id" : 2,
+        "Id" : 3,
         "Nombre" : "Zapatos",
         "Precio" : 49.99,
         "Cantidad" : 20

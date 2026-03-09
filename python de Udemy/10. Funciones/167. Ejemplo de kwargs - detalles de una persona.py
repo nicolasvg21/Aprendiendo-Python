@@ -2,7 +2,7 @@ print("*** Imprmir detalles de una persona usando kwargs ***")
 
 # Funcion que acepta argumentos variables en forma de llave-valor dict
 def imprimir_detalle_persona(**kwargs):
-    print("\nValores recibidos: ")
+    print("\nValores recibidos:\n")
     for llave, valor in kwargs.items():
         print(f"{llave}:{valor}")
 
